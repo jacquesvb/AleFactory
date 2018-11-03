@@ -4,6 +4,30 @@ import com.fasterxml.jackson.annotation.JsonView;
 
 public class Yeast {
 
+    private String name;
+    private String description;
+    private String floc;
+    private int lowAttenuation;
+    private int highAttenuation;
+    private int lowTemp;
+    private int highTemp;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
     public String getFloc() {
         return floc;
     }
@@ -44,34 +68,9 @@ public class Yeast {
         this.highTemp = highTemp;
     }
 
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    private String name;
-    private String floc;
-    private int lowAttenuation;
-    private int highAttenuation;
-    private int lowTemp;
-    private int highTemp;
-    private String description;
-
     @Override
     public String toString() {
-        return "Yeast [name=" + name + ", floc=" + floc + ", lowAttenuation=" + lowAttenuation + ", highAttenuation=" +
-                highAttenuation + ", lowTemp=" + lowTemp + ", highTemp=" + highTemp + ", description=" + description +
-                "]";
+        return "Yeast [name=" + name + ", description=" + description + ", floc=" + floc + ", lowAttenuation=" + lowAttenuation + ", highAttenuation=" +
+                highAttenuation + ", lowTemp=" + lowTemp + ", highTemp=" + highTemp + "]";
     }
 }

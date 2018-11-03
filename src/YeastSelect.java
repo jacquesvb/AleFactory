@@ -1,72 +1,52 @@
 public class YeastSelect implements Yeasts {
 
-//    public void name(String name) {
-//
-//        System.out.println(name);
-//    }
-//
-//    public void floc(String floc) {
-//
-//        System.out.println(floc);
-//    }
-//
-//    public void description(String description) {
-//
-//        System.out.println(description);
-//    }
-//
-//    public void lowTemp(int lowTemp) {
-//
-//        System.out.println(lowTemp);
-//    }
-//
-//    public void highTemp(int highTemp) {
-//
-//        System.out.println(highTemp);
-//    }
-//
-//    public void lowAttenuation(int lowAtten) {
-//
-//        System.out.println(lowAtten);
-//    }
-//
-//    public void highAttenuation(int highAtten) {
-//
-//        System.out.println(highAtten);
-//    }
+    String name, floc, description;
+    int lowTemp, highTemp, lowAtten, highAtten;
 
-    @Override
+
+    public YeastSelect(String name, String floc, String description, int lowTemp, int highTemp, int lowAtten,
+                       int highAtten) {
+        this.name = name;
+        this.floc = floc;
+        this.description = description;
+        this.lowTemp = lowTemp;
+        this.highTemp = highTemp;
+        this.lowAtten = lowAtten;
+        this.highAtten = highAtten;
+    }
+
     public void name() {
 
+        System.out.println(name);
     }
 
-    @Override
     public void floc() {
 
+        System.out.println(floc);
     }
 
-    @Override
     public void description() {
 
+        System.out.println(description);
     }
 
-    @Override
     public void lowTemp() {
 
+        System.out.println(lowTemp);
     }
 
-    @Override
     public void highTemp() {
 
+        System.out.println(highTemp);
     }
 
-    @Override
     public void lowAttenuation() {
 
+        System.out.println(lowAtten);
     }
 
-    @Override
     public void highAttenuation() {
 
+        System.out.println(highAtten);
     }
 }

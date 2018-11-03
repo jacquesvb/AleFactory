@@ -1,4 +1,4 @@
-public interface Yeasts {
+interface Yeasts {
     void name();
     void floc();
     void description();

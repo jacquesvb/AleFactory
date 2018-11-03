@@ -11,7 +11,7 @@ public class AleFactory {
         YeastFactory yeastFactory = new YeastFactory();
 
         Yeasts abbey_ale = yeastFactory.getYeast("Abbey Ale");
-//        abbey_ale.name();
-//        abbey_ale.description();
+        abbey_ale.name();
+        abbey_ale.description();
     }
 }

@@ -21,15 +21,15 @@ public class YeastFactory {
     }
 
     private Yeasts buildYeast(int yeastIndex) {
-        YeastSelect yeastSelect = new YeastSelect();
-        yeastSelect.name(yeast.get(yeastIndex).getName());
-        yeastSelect.floc(yeast.get(yeastIndex).getFloc());
-        yeastSelect.description(yeast.get(yeastIndex).getDescription());
-        yeastSelect.lowTemp(yeast.get(yeastIndex).getLowTemp());
-        yeastSelect.highTemp(yeast.get(yeastIndex).getHighTemp());
-        yeastSelect.lowAttenuation(yeast.get(yeastIndex).getLowAttenuation());
-        yeastSelect.highAttenuation(yeast.get(yeastIndex).getHighAttenuation());
-
+        YeastSelect yeastSelect = new YeastSelect(
+                yeast.get(yeastIndex).getName(),
+                yeast.get(yeastIndex).getFloc(),
+                yeast.get(yeastIndex).getDescription(),
+                yeast.get(yeastIndex).getLowTemp(),
+                yeast.get(yeastIndex).getHighTemp(),
+                yeast.get(yeastIndex).getLowAttenuation(),
+                yeast.get(yeastIndex).getHighAttenuation()
+                );
         return yeastSelect;
     }
 }
