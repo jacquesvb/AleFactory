@@ -1,0 +1,20 @@
+{
+  "Aromatic": {
+    "Description": "High kilned malt. Add color malty flavors and aromas.",
+    "Lovibond": 25,
+    "Styles": [
+      "Bock",
+      "Brown Ale",
+      "Munich Dunkel"
+    ]
+  },
+  "Biscuit": {
+    "Description": "A lightly roasted malt. Imparts a biscuity flavor and aroma, and a light brown color.",
+    "Lovibond": 25,
+    "Styles": [
+      "IPA",
+      "Amber Ale",
+      "Brown Ale"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Abbey Ale",
+    "floc": "Medium/High",
+    "lowAttenuation": 75,
+    "highAttenuation": 80,
+    "lowTemp": 66,
+    "highTemp": 72,
+    "description": "Produces fruitiness and plum characteristics"
+  },
+  {
+    "name": "American Ale",
+    "floc": "Medium/High",
+    "lowAttenuation": 73,
+    "highAttenuation": 77,
+    "lowTemp": 60,
+    "highTemp": 72,
+    "description": "Produces fruitiness and plum characteristics"
+  }
+]

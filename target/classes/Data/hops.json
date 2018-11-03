@@ -1,0 +1,26 @@
+{
+  "Admiral": {
+    "Flavor": "Known for bittering potential",
+    "LowAlphaAcid": 13.5,
+    "HighAlphaAcid": 16,
+    "Styles": [
+      "Ale"
+    ],
+    "Substitute": [
+      "UK Target",
+      "UK Northdown",
+      "UK Challenger"
+    ]
+  },
+  "Cascade": {
+    "Flavor": "Flowery, citrusy. Can have a grapefruit flavor.",
+    "LowAlphaAcid": 4.5,
+    "HighAlphaAcid": 7,
+    "Styles": [
+      "Pale Ale", "IPA", "Porter"
+    ],
+    "Substitute": [
+      "Centennial", "Amarillo", "Columbus"
+    ]
+  }
+}
