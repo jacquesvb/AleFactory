@@ -1,0 +1,223 @@
+[
+  {
+    "name": "TestHops",
+    "flavor": "Quite terrible actually.",
+    "lowAlphaAcid": 1.5,
+    "highAlphaAcid": 10,
+    "styles": [
+      "Test Style 1",
+      "Test Style 2",
+      "Test Style 3"
+    ],
+    "substitute": [
+      "Substitute hop 1",
+      "Substitute hop 2"
+    ]
+  },
+  {
+    "name": "Admiral",
+    "flavor": "Known for bittering potential",
+    "lowAlphaAcid": 13.5,
+    "highAlphaAcid": 16,
+    "styles": [
+      "Ale"
+    ],
+    "substitute": [
+      "UK Target",
+      "UK Northdown",
+      "UK Challenger"
+    ]
+  },
+  {
+    "name": "Cascade",
+    "flavor": "Flowery, citrusy. Can have a grapefruit flavor.",
+    "lowAlphaAcid": 4.5,
+    "highAlphaAcid": 7,
+    "styles": [
+      "Pale Ale",
+      "IPA",
+      "Porter"
+    ],
+    "substitute": [
+      "Centennial",
+      "Amarillo",
+      "Columbus"
+    ]
+  },
+  {
+    "name": "Centennial",
+    "flavor": "Medium with floral and citrus tones.",
+    "lowAlphaAcid": 8,
+    "highAlphaAcid": 11.5,
+    "styles": [
+      "Ale"
+    ],
+    "substitute": [
+      "Cascade",
+      "Columbus",
+      "Chinook"
+    ]
+  },
+  {
+    "name": "Chinook",
+    "flavor": "Mild to medium-heavy, spicy, piney, and grapefruity.",
+    "lowAlphaAcid": 10,
+    "highAlphaAcid": 14,
+    "styles": [
+      "Pale Ale",
+      "IPA",
+      "Porter",
+      "Stout",
+      "Lager"
+    ],
+    "substitute": [
+      "Nugget",
+      "Columbus",
+      "Northern Brewer",
+      "UK Target"
+    ]
+  },
+  {
+    "name": "Fuggle",
+    "flavor": "Mild, woody, and fruity.",
+    "lowAlphaAcid": 4.5,
+    "highAlphaAcid": 5,
+    "styles": [
+      "English Ale",
+      "American Ale"
+    ],
+    "substitute": [
+      "UK Fuggle",
+      "Willamette",
+      "Stryian Golding",
+      "US Tettnanger"
+    ]
+  },
+  {
+    "name": "Golding",
+    "flavor": "Mild, extremely pleasant and gently hoppy.",
+    "lowAlphaAcid": 4,
+    "highAlphaAcid": 6,
+    "styles": [
+      "PaleAle",
+      "ESB",
+      "English Ale"
+    ],
+    "substitute": [
+      "UK Golding",
+      "Whitebread",
+      "Golding Variety",
+      "UK Progress",
+      "Willamette"
+    ]
+  },
+  {
+    "name": "Liberty",
+    "flavor": "Mild and clean aroma, slightly spicy character.",
+    "lowAlphaAcid": 3,
+    "highAlphaAcid": 6,
+    "styles": [
+      "Lager",
+      "Pilsner",
+      "Bock",
+      "Wheat"
+    ],
+    "substitute": [
+      "Hallertauer Tradition",
+      "Hallertauer",
+      "Mt. Hood"
+    ]
+  },
+  {
+    "name": "Mt. Hood",
+    "flavor": "Mild, pleasant and clean. Somewhat pungent and resiny.",
+    "lowAlphaAcid": 3,
+    "highAlphaAcid": 8,
+    "styles": [
+      "Lager",
+      "Pilsner",
+      "Bock",
+      "Wheat"
+    ],
+    "substitute": [
+      "Crystal",
+      "French Strisslespalt",
+      "Hersbucker"
+    ]
+  },
+  {
+    "name": "Saaz",
+    "flavor": "Very mild, earthy and spicy.",
+    "lowAlphaAcid": 3,
+    "highAlphaAcid": 5,
+    "styles": [
+      "Pilsner",
+      "Lager",
+      "Wheat"
+    ],
+    "substitute": [
+      "Czech Saaz",
+      "Polish Lubin"
+    ]
+  },
+  {
+    "name": "Santiam",
+    "flavor": "Floral, slightly spicy.",
+    "lowAlphaAcid": 5,
+    "highAlphaAcid": 7.9,
+    "styles": [
+      "Lager",
+      "American Ale",
+      "Pilsner"
+    ],
+    "substitute": [
+      "Spalt",
+      "German Spalt Select"
+    ]
+  },
+  {
+    "name": "Simcoe",
+    "flavor": "A bittering and aromatic hop. Piney Aroma.",
+    "lowAlphaAcid": 12,
+    "highAlphaAcid": 14,
+    "styles": [
+      "Hoppy American Ales"
+    ],
+    "substitute": [
+      "N/A"
+    ]
+  },
+  {
+    "name": "Sterling",
+    "flavor": "Herbal, spicy, pleasant aroma, hint of floral and citrus.",
+    "lowAlphaAcid": 6,
+    "highAlphaAcid": 9,
+    "styles": [
+      "Lager",
+      "Ale",
+      "Pilsner"
+    ],
+    "substitute": [
+      "Saaz",
+      "Polish Lubin"
+    ]
+  },
+  {
+    "name": "Willamette",
+    "flavor": "Mild and pleasant. Slightly spicy, fruity floral, and a little earthy.",
+    "lowAlphaAcid": 3.5,
+    "highAlphaAcid": 6,
+    "styles": [
+      "Pale Ale",
+      "ESB",
+      "English Ale",
+      "Porter",
+      "Stout"
+    ],
+    "substitute": [
+      "US Fuggle",
+      "US Tettnanger",
+      "Styrian Golding"
+    ]
+  }
+]

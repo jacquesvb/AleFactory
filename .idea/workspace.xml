@@ -2,13 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c82ed603-3145-406e-bca9-46521db5b274" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Malt/Malt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Malt/MaltData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Malt/MaltSelect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/jacquesvb/alefactory/Hops/HopDataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/jacquesvb/alefactory/Malt/MaltDataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/jacquesvb/alefactory/Yeast/YeastDataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AleFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/malt.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/malt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Malt/MaltFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Malt/MaltFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLIDAleFactory.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SOLIDAleFactory.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jacquesvb/alefactory/AleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/hops.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jacquesvb/alefactory/Data/hops.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/malt.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jacquesvb/alefactory/Data/malt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/yeast.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jacquesvb/alefactory/Data/yeast.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hops/Hop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jacquesvb/alefactory/Hops/Hop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hops/HopData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jacquesvb/alefactory/Hops/HopData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hops/HopFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jacquesvb/alefactory/Hops/HopFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hops/HopSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jacquesvb/alefactory/Hops/HopSelect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hops/Hops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jacquesvb/alefactory/Hops/Hops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Malt/Malt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jacquesvb/alefactory/Malt/Malt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Malt/MaltData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jacquesvb/alefactory/Malt/MaltData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Malt/MaltFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jacquesvb/alefactory/Malt/MaltFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Malt/MaltSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jacquesvb/alefactory/Malt/MaltSelect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Malt/Malts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jacquesvb/alefactory/Malt/Malts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Yeast/Yeast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jacquesvb/alefactory/Yeast/Yeast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Yeast/YeastData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jacquesvb/alefactory/Yeast/YeastData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Yeast/YeastFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jacquesvb/alefactory/Yeast/YeastFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Yeast/YeastSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jacquesvb/alefactory/Yeast/YeastSelect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Yeast/Yeasts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jacquesvb/alefactory/Yeast/Yeasts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AleFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Data/hops.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Data/malt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Data/yeast.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Hops/Hop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Hops/HopData$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Hops/HopData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Hops/HopFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Hops/HopSelect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Hops/Hops.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Malt/Malt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Malt/MaltData$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Malt/MaltData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Malt/MaltFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Malt/MaltSelect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Malt/Malts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Yeast/Yeast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Yeast/YeastData$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Yeast/YeastData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Yeast/YeastFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Yeast/YeastSelect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Yeast/Yeasts.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,26 +61,27 @@
     <session id="1882814589">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="74" />
-          <entry key="json" value="14" />
+          <entry key="java" value="90" />
+          <entry key="json" value="19" />
           <entry key="kt" value="1" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="74" />
-          <entry key="JSON" value="14" />
+          <entry key="JAVA" value="90" />
+          <entry key="JSON" value="19" />
           <entry key="Kotlin" value="1" />
           <entry key="XML" value="1" />
         </counts>
@@ -49,15 +89,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="30" />
-          <entry key="java" value="12524" />
-          <entry key="json" value="5052" />
+          <entry key="java" value="15600" />
+          <entry key="json" value="5430" />
           <entry key="xml" value="213" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="12524" />
-          <entry key="JSON" value="5052" />
+          <entry key="JAVA" value="15600" />
+          <entry key="JSON" value="5430" />
           <entry key="PLAIN_TEXT" value="30" />
           <entry key="XML" value="213" />
         </counts>
@@ -69,14 +109,14 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.8324176">
+    <splitter split-orientation="horizontal" split-proportion="0.40808824">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Malt/MaltData.java">
+            <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/Malt/MaltData.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="352">
-                  <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+                <state relative-caret-position="160">
+                  <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="21" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -85,19 +125,120 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Data/malt.json">
+            <entry file="file://$PROJECT_DIR$/test/com/jacquesvb/alefactory/Yeast/YeastDataTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-170">
-                  <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+                <state relative-caret-position="325">
+                  <caret line="60" column="51" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
+                  <folding>
+                    <element signature="e#889#890#0" expanded="true" />
+                    <element signature="e#917#918#0" expanded="true" />
+                    <element signature="e#998#999#0" expanded="true" />
+                    <element signature="e#1026#1027#0" expanded="true" />
+                    <element signature="e#1112#1113#0" expanded="true" />
+                    <element signature="e#1140#1141#0" expanded="true" />
+                    <element signature="e#1242#1243#0" expanded="true" />
+                    <element signature="e#1270#1271#0" expanded="true" />
+                    <element signature="e#1374#1375#0" expanded="true" />
+                    <element signature="e#1402#1403#0" expanded="true" />
+                    <element signature="e#1501#1502#0" expanded="true" />
+                    <element signature="e#1529#1530#0" expanded="true" />
+                    <element signature="e#1627#1628#0" expanded="true" />
+                    <element signature="e#1655#1656#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Malt/Malt.java">
+            <entry file="file://$PROJECT_DIR$/test/com/jacquesvb/alefactory/Malt/MaltDataTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="480">
-                  <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+                <state relative-caret-position="86">
+                  <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+                  <folding>
+                    <element signature="e#704#705#0" expanded="true" />
+                    <element signature="e#758#759#0" expanded="true" />
+                    <element signature="e#808#809#0" expanded="true" />
+                    <element signature="e#879#880#0" expanded="true" />
+                    <element signature="e#717#718#0" expanded="true" />
+                    <element signature="e#769#770#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/Malt/MaltFactory.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-115">
+                  <caret line="7" selection-start-line="7" selection-end-line="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/Malt/MaltSelect.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-70">
+                  <caret line="15" column="89" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/Hops/Hop.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-219">
+                  <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/Hops/HopData.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="154">
+                  <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="20" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test/com/jacquesvb/alefactory/Hops/HopDataTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="574">
+                  <caret line="64" column="49" lean-forward="true" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="49" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#574#575#0" expanded="true" />
+                    <element signature="e#602#603#0" expanded="true" />
+                    <element signature="e#680#681#0" expanded="true" />
+                    <element signature="e#708#709#0" expanded="true" />
+                    <element signature="e#799#800#0" expanded="true" />
+                    <element signature="e#826#827#0" expanded="true" />
+                    <element signature="e#890#891#0" expanded="true" />
+                    <element signature="e#917#918#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/AleFactory.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="96">
+                  <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/Hops/HopFactory.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="88">
+                  <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="49" />
                 </state>
               </provider>
             </entry>
@@ -107,10 +248,10 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Yeast/YeastData.java">
+            <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/Yeast/YeastData.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="339">
-                  <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+                <state relative-caret-position="160">
+                  <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="22" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -119,54 +260,44 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Yeast/Yeast.java">
+            <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/Yeast/Yeast.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="32">
-                  <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+                  <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Hops/Hop.java">
+            <entry file="file://$PROJECT_DIR$/test/com/jacquesvb/alefactory/Hops/HopDataTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="613">
-                  <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+                <state relative-caret-position="1024">
+                  <caret line="64" column="48" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
                   <folding>
-                    <element signature="e#275#276#0" expanded="true" />
-                    <element signature="e#302#303#0" expanded="true" />
-                    <element signature="e#342#343#0" expanded="true" />
-                    <element signature="e#374#375#0" expanded="true" />
-                    <element signature="e#407#408#0" expanded="true" />
-                    <element signature="e#436#437#0" expanded="true" />
-                    <element signature="e#480#481#0" expanded="true" />
-                    <element signature="e#516#517#0" expanded="true" />
-                    <element signature="e#554#555#0" expanded="true" />
-                    <element signature="e#589#590#0" expanded="true" />
-                    <element signature="e#644#645#0" expanded="true" />
-                    <element signature="e#692#693#0" expanded="true" />
-                    <element signature="e#731#732#0" expanded="true" />
-                    <element signature="e#767#768#0" expanded="true" />
-                    <element signature="e#824#825#0" expanded="true" />
-                    <element signature="e#874#875#0" expanded="true" />
-                    <element signature="e#913#914#0" expanded="true" />
-                    <element signature="e#942#943#0" expanded="true" />
-                    <element signature="e#992#993#0" expanded="true" />
-                    <element signature="e#1028#1029#0" expanded="true" />
-                    <element signature="e#1071#1072#0" expanded="true" />
-                    <element signature="e#1104#1105#0" expanded="true" />
-                    <element signature="e#1162#1163#0" expanded="true" />
-                    <element signature="e#1206#1207#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#946#947#0" expanded="true" />
+                    <element signature="e#1000#1001#0" expanded="true" />
+                    <element signature="e#1045#1046#0" expanded="true" />
+                    <element signature="e#1103#1104#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Data/yeast.json">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/Data/malt.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1776">
-                  <caret line="111" column="53" selection-start-line="111" selection-start-column="53" selection-end-line="111" selection-end-column="53" />
+                <state relative-caret-position="112">
+                  <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/Data/yeast.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="128">
+                  <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
                 </state>
               </provider>
             </entry>
@@ -180,6 +311,7 @@
       <list>
         <option value="Kotlin File" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -225,9 +357,19 @@
         <option value="$PROJECT_DIR$/src/Malt/MaltSelect.java" />
         <option value="$PROJECT_DIR$/src/Malt/MaltData.java" />
         <option value="$PROJECT_DIR$/src/Malt/MaltFactory.java" />
-        <option value="$PROJECT_DIR$/src/AleFactory.java" />
         <option value="$PROJECT_DIR$/src/Malt/Malt.java" />
         <option value="$PROJECT_DIR$/src/Data/malt.json" />
+        <option value="$PROJECT_DIR$/src/AleFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/jacquesvb/alefactory/AleFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/jacquesvb/alefactory/Yeast/YeastData.java" />
+        <option value="$PROJECT_DIR$/src/com/jacquesvb/alefactory/Malt/MaltData.java" />
+        <option value="$PROJECT_DIR$/src/com/jacquesvb/alefactory/Hops/HopData.java" />
+        <option value="$PROJECT_DIR$/src/com/jacquesvb/alefactory/Data/hops.json" />
+        <option value="$PROJECT_DIR$/src/com/jacquesvb/alefactory/Data/malt.json" />
+        <option value="$PROJECT_DIR$/test/com/jacquesvb/alefactory/Malt/MaltDataTest.java" />
+        <option value="$PROJECT_DIR$/test/com/jacquesvb/alefactory/Hops/HopDataTest.java" />
+        <option value="$PROJECT_DIR$/src/com/jacquesvb/alefactory/Data/yeast.json" />
+        <option value="$PROJECT_DIR$/test/com/jacquesvb/alefactory/Yeast/YeastDataTest.java" />
       </list>
     </option>
   </component>
@@ -255,79 +397,103 @@
         <expanded-state>
           <State />
           <State>
-            <id>Ant</id>
+            <id>Abstraction issuesJava</id>
           </State>
           <State>
-            <id>Application Servers</id>
+            <id>ArquillianJava</id>
           </State>
           <State>
-            <id>Control flow issuesJava</id>
+            <id>Class structureJava</id>
           </State>
           <State>
-            <id>Control flow issuesJavaScript</id>
+            <id>CodeSpring CoreSpring</id>
           </State>
           <State>
             <id>Declaration redundancyJava</id>
           </State>
           <State>
-            <id>Faces Model</id>
+            <id>Error handlingJava</id>
           </State>
           <State>
-            <id>General</id>
+            <id>FlexUnit</id>
+          </State>
+          <State>
+            <id>GSPGrailsGroovy</id>
+          </State>
+          <State>
+            <id>GeneralJava</id>
           </State>
           <State>
             <id>GeneralJavaScript</id>
           </State>
           <State>
+            <id>Google Web Toolkit</id>
+          </State>
+          <State>
+            <id>GrailsGroovy</id>
+          </State>
+          <State>
             <id>Groovy</id>
           </State>
           <State>
-            <id>Hibernate</id>
+            <id>Inheritance issuesJava</id>
           </State>
           <State>
-            <id>InitializationJava</id>
-          </State>
-          <State>
-            <id>InternationalizationJava</id>
-          </State>
-          <State>
-            <id>JBoss Seam</id>
-          </State>
-          <State>
-            <id>JPA</id>
-          </State>
-          <State>
-            <id>JSON and JSON5</id>
+            <id>JUnitJava</id>
           </State>
           <State>
             <id>Java</id>
           </State>
           <State>
-            <id>Java EE</id>
-          </State>
-          <State>
             <id>JavaScript</id>
           </State>
           <State>
-            <id>JavaScript validity issuesJavaScript</id>
+            <id>JavaScript function metricsJavaScript</id>
           </State>
           <State>
-            <id>Maven</id>
+            <id>Kotlin</id>
           </State>
           <State>
-            <id>Plugin DevKit</id>
+            <id>MemoryJava</id>
+          </State>
+          <State>
+            <id>Method metricsGroovy</id>
+          </State>
+          <State>
+            <id>Method metricsJava</id>
+          </State>
+          <State>
+            <id>Naming conventionsKotlin</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>Packaging issuesJava</id>
+          </State>
+          <State>
+            <id>PerformanceJava</id>
           </State>
           <State>
             <id>Probable bugsJava</id>
           </State>
           <State>
-            <id>Properties Files</id>
+            <id>Probable bugsKotlin</id>
           </State>
           <State>
-            <id>RegExp</id>
+            <id>Reactor</id>
+          </State>
+          <State>
+            <id>Redundant constructsKotlin</id>
           </State>
           <State>
             <id>SQL</id>
+          </State>
+          <State>
+            <id>SecurityJava</id>
           </State>
           <State>
             <id>Spring</id>
@@ -336,49 +502,26 @@
             <id>Spring CoreSpring</id>
           </State>
           <State>
-            <id>Struts</id>
-          </State>
-          <State>
-            <id>Struts 1Struts</id>
-          </State>
-          <State>
             <id>TestNGJava</id>
-          </State>
-          <State>
-            <id>UI Form</id>
-          </State>
-          <State>
-            <id>Validity issuesGroovy</id>
           </State>
           <State>
             <id>XML</id>
           </State>
           <State>
-            <id>XMLSpring CoreSpring</id>
-          </State>
-          <State>
-            <id>XSLT</id>
-          </State>
-          <State>
-            <id>YAML</id>
+            <id>XPath</id>
           </State>
         </expanded-state>
-        <selected-state>
-          <State>
-            <id>Duplicates</id>
-          </State>
-        </selected-state>
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -395,22 +538,114 @@
               <item name="SOLIDAleFactory" type="b2602c69:ProjectViewProjectNode" />
               <item name="SOLIDAleFactory" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOLIDAleFactory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOLIDAleFactory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jacquesvb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOLIDAleFactory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOLIDAleFactory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jacquesvb" type="462c0819:PsiDirectoryNode" />
+              <item name="alefactory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOLIDAleFactory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOLIDAleFactory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jacquesvb" type="462c0819:PsiDirectoryNode" />
+              <item name="alefactory" type="462c0819:PsiDirectoryNode" />
               <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOLIDAleFactory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOLIDAleFactory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jacquesvb" type="462c0819:PsiDirectoryNode" />
+              <item name="alefactory" type="462c0819:PsiDirectoryNode" />
+              <item name="Malt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOLIDAleFactory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOLIDAleFactory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jacquesvb" type="462c0819:PsiDirectoryNode" />
+              <item name="alefactory" type="462c0819:PsiDirectoryNode" />
+              <item name="Yeast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOLIDAleFactory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOLIDAleFactory" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOLIDAleFactory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOLIDAleFactory" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOLIDAleFactory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOLIDAleFactory" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jacquesvb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOLIDAleFactory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOLIDAleFactory" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jacquesvb" type="462c0819:PsiDirectoryNode" />
+              <item name="alefactory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOLIDAleFactory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOLIDAleFactory" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jacquesvb" type="462c0819:PsiDirectoryNode" />
+              <item name="alefactory" type="462c0819:PsiDirectoryNode" />
+              <item name="Hops" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.jacquesvb.alefactory.Yeast" />
+      <recent name="com.jacquesvb.alefactory.Malt" />
+      <recent name="com.jacquesvb.alefactory.Hops" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -427,7 +662,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AleFactory">
+  <component name="RunManager" selected="JUnit.All Tests">
     <configuration name="AleFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AleFactory" />
       <module name="SOLIDAleFactory" />
@@ -435,39 +670,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JSON_Reader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JSON_Reader" />
+    <configuration name="AleFactory" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.jacquesvb.alefactory.AleFactory" />
       <module name="SOLIDAleFactory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jacquesvb.alefactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JacksonReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JacksonReader" />
+    <configuration name="All Tests" type="JUnit" factoryName="JUnit">
       <module name="SOLIDAleFactory" />
+      <option name="PACKAGE_NAME" value="com.jacquesvb.alefactory" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Yeast_Reader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Yeast_Reader" />
+    <configuration name="MaltDataTest.getLovibond" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SOLIDAleFactory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jacquesvb.alefactory.Malt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jacquesvb.alefactory.Malt" />
+      <option name="MAIN_CLASS_NAME" value="com.jacquesvb.alefactory.Malt.MaltDataTest" />
+      <option name="METHOD_NAME" value="getLovibond" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.JSON_Reader" />
-      <item itemvalue="Application.JacksonReader" />
-      <item itemvalue="Application.Yeast_Reader" />
       <item itemvalue="Application.AleFactory" />
+      <item itemvalue="JUnit.All Tests" />
+      <item itemvalue="JUnit.MaltDataTest.getLovibond" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MaltDataTest.getLovibond" />
         <item itemvalue="Application.AleFactory" />
-        <item itemvalue="Application.Yeast_Reader" />
-        <item itemvalue="Application.JacksonReader" />
-        <item itemvalue="Application.JSON_Reader" />
       </list>
     </recent_temporary>
   </component>
@@ -490,18 +741,51 @@
       <workItem from="1541191873280" duration="4946000" />
       <workItem from="1541214435516" duration="12668000" />
       <workItem from="1541274034516" duration="7063000" />
-      <workItem from="1541302025055" duration="15413000" />
+      <workItem from="1541302025055" duration="16266000" />
+      <workItem from="1541366017083" duration="7774000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="All_Tests - 2018.11.04 at 14h 20m 56s.xml">
+      <configuration name="All Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_Tests - 2018.11.04 at 14h 35m 25s.xml">
+      <configuration name="All Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaltDataTest_getLovibond - 2018.11.04 at 14h 35m 56s.xml">
+      <configuration name="MaltDataTest.getLovibond" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaltDataTest_getLovibond - 2018.11.04 at 14h 38m 06s.xml">
+      <configuration name="MaltDataTest.getLovibond" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaltDataTest_getLovibond - 2018.11.04 at 14h 38m 41s.xml">
+      <configuration name="MaltDataTest.getLovibond" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaltDataTest_getLovibond - 2018.11.04 at 14h 39m 55s.xml">
+      <configuration name="MaltDataTest.getLovibond" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaltDataTest_getLovibond - 2018.11.04 at 14h 50m 00s.xml">
+      <configuration name="MaltDataTest.getLovibond" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_Tests - 2018.11.04 at 14h 50m 12s.xml">
+      <configuration name="All Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_Tests - 2018.11.04 at 14h 50m 46s.xml">
+      <configuration name="All Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_Tests - 2018.11.04 at 15h 01m 41s.xml">
+      <configuration name="All Tests" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55487000" />
+    <option name="totallyTimeSpent" value="64114000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="31" width="1425" height="857" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21041214" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21330442" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -528,7 +812,7 @@
       <window_info anchor="right" id="Maven Projects" order="6" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21041214" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21330442" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -565,8 +849,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/AleFactory.java</url>
-          <line>19</line>
+          <url>file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/AleFactory.java</url>
+          <line>21</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -588,120 +872,39 @@
     <entry file="file://$PROJECT_DIR$/src/Yeast_Reader.java" />
     <entry file="file://$PROJECT_DIR$/src/JSON_Reader.java" />
     <entry file="file://$PROJECT_DIR$/src/JacksonReader.java" />
-    <entry file="file://$PROJECT_DIR$/src/Yeast/Yeasts.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/Yeast/Yeasts.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yeast/YeastSelect.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/Yeast/YeastSelect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
-          <folding>
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#800#801#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
-            <element signature="e#887#888#0" expanded="true" />
-            <element signature="e#934#935#0" expanded="true" />
-            <element signature="e#977#978#0" expanded="true" />
-            <element signature="e#1020#1021#0" expanded="true" />
-            <element signature="e#1064#1065#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-            <element signature="e#1158#1159#0" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
-            <element signature="e#1298#1299#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yeast/YeastFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/Yeast/YeastFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Hops/HopSelect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="56" column="42" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
-          <folding>
-            <element signature="e#1173#1174#0" expanded="true" />
-            <element signature="e#1221#1222#0" expanded="true" />
-            <element signature="e#1266#1267#0" expanded="true" />
-            <element signature="e#1315#1316#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Malt/MaltSelect.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Malt/MaltSelect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="89" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
-          <folding>
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Data/hops.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Hops/Hops.java">
+    <entry file="file://$PROJECT_DIR$/src/Malt/MaltSelect.kt" />
+    <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/Hops/Hops.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Malt/Malts.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/Malt/Malts.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Hops/HopData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Hops/HopFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AleFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -709,106 +912,250 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="480" selection-start-line="480" selection-end-line="480" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/Malt/Malt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/Hops/HopSelect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="56" column="42" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/Hops/HopData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="20" />
           <folding>
-            <element signature="e#20338#20339#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Malt/MaltFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/Hops/Hop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-219">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/Data/hops.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/Hops/HopFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/Malt/MaltData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/AleFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/Data/malt.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/Malt/MaltFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yeast/Yeast.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/Malt/MaltSelect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-70">
+          <caret line="15" column="89" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/jacquesvb/alefactory/Malt/MaltDataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding>
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/Yeast/YeastData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/Yeast/Yeast.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
-          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Hops/Hop.java">
+    <entry file="file://$PROJECT_DIR$/test/com/jacquesvb/alefactory/Hops/HopDataTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
-          <folding>
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#913#914#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-            <element signature="e#1071#1072#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-            <element signature="e#1206#1207#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Malt/Malt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yeast/YeastData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="574">
+          <caret line="64" column="49" lean-forward="true" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Malt/MaltData.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jacquesvb/alefactory/Data/yeast.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        <state relative-caret-position="128">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/jacquesvb/alefactory/Yeast/YeastDataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="60" column="51" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+            <element signature="e#1374#1375#0" expanded="true" />
+            <element signature="e#1402#1403#0" expanded="true" />
+            <element signature="e#1501#1502#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1627#1628#0" expanded="true" />
+            <element signature="e#1655#1656#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Data/yeast.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1776">
-          <caret line="111" column="53" selection-start-line="111" selection-start-column="53" selection-end-line="111" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Data/malt.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SOLIDAleFactory</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
