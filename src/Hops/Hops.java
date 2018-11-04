@@ -1,3 +1,5 @@
+package Hops;
+
 public interface Hops {
     void name();
     void flavor();

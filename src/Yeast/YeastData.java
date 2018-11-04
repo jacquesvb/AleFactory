@@ -1,3 +1,5 @@
+package Yeast;
+
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -7,9 +9,9 @@ import java.nio.file.Paths;
 import java.util.List;
 
 public class YeastData {
-    byte[] yeastData;
-    ObjectMapper mapper = new ObjectMapper();
-    List<Yeast> yeast;
+    private byte[] yeastData;
+    private ObjectMapper mapper = new ObjectMapper();
+    private List<Yeast> yeast;
 
     public List<Yeast> getYeastData() {
         try {

@@ -1,3 +1,5 @@
+package Malt;
+
 public interface Malts {
     void name();
     void description();

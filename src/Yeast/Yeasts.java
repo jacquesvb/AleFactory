@@ -1,4 +1,6 @@
-interface Yeasts {
+package Yeast;
+
+public interface Yeasts {
     void name();
     void floc();
     void description();

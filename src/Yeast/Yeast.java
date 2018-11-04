@@ -1,6 +1,4 @@
-import java.math.BigDecimal;
-import java.util.List;
-import com.fasterxml.jackson.annotation.JsonView;
+package Yeast;
 
 public class Yeast {
 
@@ -70,7 +68,7 @@ public class Yeast {
 
     @Override
     public String toString() {
-        return "Yeast [name=" + name + ", description=" + description + ", floc=" + floc + ", lowAttenuation=" + lowAttenuation + ", highAttenuation=" +
+        return "Yeast.Yeast [name=" + name + ", description=" + description + ", floc=" + floc + ", lowAttenuation=" + lowAttenuation + ", highAttenuation=" +
                 highAttenuation + ", lowTemp=" + lowTemp + ", highTemp=" + highTemp + "]";
     }
 }

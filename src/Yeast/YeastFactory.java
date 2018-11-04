@@ -1,10 +1,12 @@
+package Yeast;
+
 import java.util.List;
 
 public class YeastFactory {
 
-    YeastData yeastData = new YeastData();
-    List<Yeast> yeast = yeastData.getYeastData();
-    int quantity = yeast.size();
+    private YeastData yeastData = new YeastData();
+    private List<Yeast> yeast = yeastData.getYeastData();
+    private int quantity = yeast.size();
 
     public Yeasts getYeast(String yeastType) {
         if(yeastType == null) {
