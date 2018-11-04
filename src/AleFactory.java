@@ -1,5 +1,7 @@
 import Hops.HopFactory;
 import Hops.Hops;
+import Malt.MaltFactory;
+import Malt.Malts;
 import Yeast.YeastFactory;
 import Yeast.Yeasts;
 
@@ -15,6 +17,7 @@ public class AleFactory {
     public static void main(String[] args) {
         YeastFactory yeastFactory = new YeastFactory();
         HopFactory hopFactory = new HopFactory();
+        MaltFactory maltFactory = new MaltFactory();
 
         Yeasts abbey_ale = yeastFactory.getYeast("Abbey Ale");
         Yeasts noData = yeastFactory.getYeast("Nodata Ale");
@@ -25,6 +28,7 @@ public class AleFactory {
         System.out.println("\n");
         noData.name();
         noData.description();
+
         System.out.println("\n");
 
         Hops chinook = hopFactory.getHop("Chinook");
@@ -33,5 +37,13 @@ public class AleFactory {
         chinook.highAlpha();
         chinook.lowAlpha();
         chinook.substitute();
+
+        System.out.println("\n");
+
+        Malts coffeeMalt = maltFactory.getMalt("Coffee Malt");
+        coffeeMalt.name();
+        coffeeMalt.description();
+        coffeeMalt.lovibond();
+        coffeeMalt.style();
     }
 }
