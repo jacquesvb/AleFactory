@@ -42,7 +42,7 @@ public class AleFactory {
 
         System.out.println("\n");
 
-        Malts coffeeMalt = maltFactory.getMalt("Coffee com.jacquesvb.alefactory.Malt");
+        Malts coffeeMalt = maltFactory.getMalt("Coffee Malt");
         coffeeMalt.name();
         coffeeMalt.description();
         coffeeMalt.lovibond();

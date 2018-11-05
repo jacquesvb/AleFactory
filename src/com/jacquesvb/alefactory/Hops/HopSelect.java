@@ -8,11 +8,6 @@ public class HopSelect implements Hops {
     private float lowAlphaAcid, highAlphaAcid;
     private List<String> styles, substitute;
 
-    public HopSelect(String name, String flavor) {
-        this.name = name;
-        this.flavor = flavor;
-    }
-
     public HopSelect(String name, String flavor, float lowAlphaAcid, float highAlphaAcid, List<String> styles,
                      List<String> substitute) {
         this.name = name;

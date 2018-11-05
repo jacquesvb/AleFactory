@@ -8,11 +8,6 @@ public class MaltSelect implements Malts {
     private List<Float> lovibond;
     private List<String> styles;
 
-    public MaltSelect(String name, String description) {
-        this.name = name;
-        this.description = description;
-    }
-
     public MaltSelect(String name, String description, List<Float> lovibond, List<String> styles) {
         this.name = name;
         this.description = description;

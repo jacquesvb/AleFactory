@@ -5,12 +5,6 @@ public class YeastSelect implements Yeasts {
     private String name, floc, description;
     private int lowTemp, highTemp, lowAtten, highAtten;
 
-    public YeastSelect(String name, String description)
-    {
-        this.name = name;
-        this.description = description;
-    }
-
     public YeastSelect(String name, String floc, String description, int lowTemp, int highTemp, int lowAtten,
                        int highAtten) {
         this.name = name;
