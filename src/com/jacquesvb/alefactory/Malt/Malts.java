@@ -1,8 +1,10 @@
 package com.jacquesvb.alefactory.Malt;
 
+import java.util.List;
+
 public interface Malts {
-    void name();
-    void description();
-    void lovibond();
-    void style();
+    String name();
+    String description();
+    List<Float> lovibond();
+    List<String> style();
 }

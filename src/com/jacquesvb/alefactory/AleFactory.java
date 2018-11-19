@@ -23,6 +23,8 @@ public class AleFactory {
 
         Yeasts abbey_ale = yeastFactory.getYeast("Abbey Ale");
         Yeasts noData = yeastFactory.getYeast("Nodata Ale");
+        System.out.println("Yeast name: " + abbey_ale.name());
+        System.out.println("Yeast description: " + abbey_ale.description());
         abbey_ale.name();
         abbey_ale.lowTemp();
         abbey_ale.highTemp();
@@ -34,6 +36,8 @@ public class AleFactory {
         System.out.println("\n");
 
         Hops chinook = hopFactory.getHop("Chinook");
+        System.out.println("Hop name: " + chinook.name());
+        System.out.println("Hop flavor: " + chinook.flavor());
         chinook.name();
         chinook.flavor();
         chinook.highAlpha();
@@ -43,6 +47,8 @@ public class AleFactory {
         System.out.println("\n");
 
         Malts coffeeMalt = maltFactory.getMalt("Coffee Malt");
+        System.out.println("Malt name: " + coffeeMalt.name());
+        System.out.println("Malt description: " + coffeeMalt.description());
         coffeeMalt.name();
         coffeeMalt.description();
         coffeeMalt.lovibond();

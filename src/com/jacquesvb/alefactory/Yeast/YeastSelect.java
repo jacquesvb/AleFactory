@@ -17,37 +17,37 @@ public class YeastSelect implements Yeasts {
     }
 
     @Override
-    public void name() {
-        System.out.println(name);
+    public String name() {
+        return name;
     }
 
     @Override
-    public void floc() {
-        System.out.println(floc);
+    public String floc() {
+        return floc;
     }
 
     @Override
-    public void description() {
-        System.out.println(description);
+    public String description() {
+        return description;
     }
 
     @Override
-    public void lowTemp() {
-        System.out.println(lowTemp);
+    public int lowTemp() {
+        return lowTemp;
     }
 
     @Override
-    public void highTemp() {
-        System.out.println(highTemp);
+    public int highTemp() {
+        return highTemp;
     }
 
     @Override
-    public void lowAttenuation() {
-        System.out.println(lowAtten);
+    public int lowAttenuation() {
+        return lowAtten;
     }
 
     @Override
-    public void highAttenuation() {
-        System.out.println(highAtten);
+    public int highAttenuation() {
+        return highAtten;
     }
 }

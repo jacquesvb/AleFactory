@@ -1,11 +1,11 @@
 package com.jacquesvb.alefactory.Yeast;
 
 public interface Yeasts {
-    void name();
-    void floc();
-    void description();
-    void lowTemp();
-    void highTemp();
-    void lowAttenuation();
-    void highAttenuation();
+    String name();
+    String floc();
+    String description();
+    int lowTemp();
+    int highTemp();
+    int lowAttenuation();
+    int highAttenuation();
 }

@@ -1,5 +1,6 @@
 package com.jacquesvb.alefactory.Hops;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class HopSelect implements Hops {
@@ -19,37 +20,37 @@ public class HopSelect implements Hops {
     }
 
     @Override
-    public void name() {
-        System.out.println(name);
+    public String name() {
+        return name;
     }
 
     @Override
-    public void flavor() {
-        System.out.println(flavor);
+    public String flavor() {
+        return flavor;
     }
 
     @Override
-    public void substitute() {
-        for(String sub : substitute) {
-            System.out.println(sub);
-        }
+    public List<String> substitute() {
+        List<String> subList = new ArrayList<>();
+        subList.addAll(substitute);
+        return subList;
     }
 
     @Override
-    public void style() {
-        for(String style : styles) {
-            System.out.println(style);
-        }
+    public List<String> style() {
+        List<String> styleList = new ArrayList<>();
+        styleList.addAll(styles);
+        return styleList;
     }
 
     @Override
-    public void lowAlpha() {
-        System.out.println(lowAlphaAcid);
+    public float lowAlpha() {
+        return lowAlphaAcid;
     }
 
     @Override
-    public void highAlpha() {
-        System.out.println(highAlphaAcid);
+    public float highAlpha() {
+        return highAlphaAcid;
     }
 }
 

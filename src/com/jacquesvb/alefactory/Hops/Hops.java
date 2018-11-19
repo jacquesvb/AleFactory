@@ -1,10 +1,12 @@
 package com.jacquesvb.alefactory.Hops;
 
+import java.util.List;
+
 public interface Hops {
-    void name();
-    void flavor();
-    void substitute();
-    void style();
-    void lowAlpha();
-    void highAlpha();
+    String name();
+    String flavor();
+    List<String> substitute();
+    List<String> style();
+    float lowAlpha();
+    float highAlpha();
 }

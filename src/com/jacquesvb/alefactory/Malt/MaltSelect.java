@@ -1,5 +1,6 @@
 package com.jacquesvb.alefactory.Malt;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class MaltSelect implements Malts {
@@ -16,26 +17,26 @@ public class MaltSelect implements Malts {
     }
 
     @Override
-    public void name() {
-        System.out.println(name);
+    public String name() {
+        return name;
     }
 
     @Override
-    public void description() {
-        System.out.println(description);
+    public String description() {
+        return description;
     }
 
     @Override
-    public void lovibond() {
-        for(float lb : lovibond) {
-            System.out.println(lb);
-        }
+    public List<Float> lovibond() {
+        List<Float> lovibondList = new ArrayList<>();
+        lovibondList.addAll(lovibond);
+        return lovibondList;
     }
 
     @Override
-    public void style() {
-        for(String stylz : styles) {
-            System.out.println(stylz);
-        }
+    public List<String> style() {
+        List<String> styleList = new ArrayList<>();
+        styleList.addAll(styles);
+        return styleList;
     }
 }
