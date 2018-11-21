@@ -7,9 +7,6 @@ import com.jacquesvb.alefactory.Malt.Malts;
 import com.jacquesvb.alefactory.Yeast.YeastFactory;
 import com.jacquesvb.alefactory.Yeast.Yeasts;
 
-import java.util.Iterator;
-import java.util.List;
-
 public class AleFactory {
 
     /**
