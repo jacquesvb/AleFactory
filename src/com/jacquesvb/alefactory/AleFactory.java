@@ -7,6 +7,9 @@ import com.jacquesvb.alefactory.Malt.Malts;
 import com.jacquesvb.alefactory.Yeast.YeastFactory;
 import com.jacquesvb.alefactory.Yeast.Yeasts;
 
+import java.util.Iterator;
+import java.util.List;
+
 public class AleFactory {
 
     /**
@@ -17,18 +20,18 @@ public class AleFactory {
      */
 
     public static void main(String[] args) {
+        Display display = new Display();
         YeastFactory yeastFactory = new YeastFactory();
         HopFactory hopFactory = new HopFactory();
         MaltFactory maltFactory = new MaltFactory();
 
         Yeasts abbey_ale = yeastFactory.getYeast("Abbey Ale");
         Yeasts noData = yeastFactory.getYeast("Nodata Ale");
-        System.out.println("Yeast name: " + abbey_ale.name());
-        System.out.println("Yeast description: " + abbey_ale.description());
-        abbey_ale.name();
-        abbey_ale.lowTemp();
-        abbey_ale.highTemp();
-        abbey_ale.description();
+
+        System.out.println(display.showType("Yeast name", abbey_ale.name()));
+        System.out.println(display.showType("Description", abbey_ale.description()));
+        System.out.println(display.showType("High temperature", abbey_ale.highTemp()));
+
         System.out.println("\n");
         noData.name();
         noData.description();
@@ -36,22 +39,25 @@ public class AleFactory {
         System.out.println("\n");
 
         Hops chinook = hopFactory.getHop("Chinook");
-        System.out.println("Hop name: " + chinook.name());
-        System.out.println("Hop flavor: " + chinook.flavor());
-        chinook.name();
-        chinook.flavor();
-        chinook.highAlpha();
-        chinook.lowAlpha();
-        chinook.substitute();
+        System.out.println(display.showType("Hop name", chinook.name()));
+
+        System.out.println("\n");
+        System.out.println("Standard List of Styles");
+        System.out.println(chinook.style());
+        System.out.println("\n");
+        System.out.println("Convert List to a comma-separated string:");
+        Adapter adp = new Adapter();
+        System.out.println(adp.Stringify(chinook.style()));
+        Decorator dec = new Decorator();
+        System.out.println("\n");
+        System.out.println("Convert List to a comma-separated bedazzled string:");
+        System.out.println(dec.bedazzle("Hop styles: ", adp.Stringify(chinook.style())));
 
         System.out.println("\n");
 
         Malts coffeeMalt = maltFactory.getMalt("Coffee Malt");
-        System.out.println("Malt name: " + coffeeMalt.name());
-        System.out.println("Malt description: " + coffeeMalt.description());
-        coffeeMalt.name();
-        coffeeMalt.description();
-        coffeeMalt.lovibond();
-        coffeeMalt.style();
+        System.out.println(display.showType("Malt name", coffeeMalt.name()));
+        System.out.println(display.showType("Malt Description", coffeeMalt.description()));
+        System.out.println(display.showType("Lovibond", coffeeMalt.lovibond()));
     }
 }
