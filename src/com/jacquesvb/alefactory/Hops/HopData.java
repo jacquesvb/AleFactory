@@ -16,6 +16,7 @@ public class HopData {
     public List<Hop> getHopData() {
         try {
             hopData = Files.readAllBytes(Paths.get("src/com/jacquesvb/alefactory/Data/hops.json"));
+            System.out.println("This is Hop Data: " + hopData);
             hop = mapper.readValue(hopData, new TypeReference<List<Hop>>(){});
 
             return hop;

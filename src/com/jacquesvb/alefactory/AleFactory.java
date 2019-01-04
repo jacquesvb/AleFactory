@@ -27,7 +27,7 @@ public class AleFactory {
 
         System.out.println(display.showType("Yeast name", abbey_ale.name()));
         System.out.println(display.showType("Description", abbey_ale.description()));
-        System.out.println(display.showType("High temperature", abbey_ale.highTemp()));
+//        System.out.println(display.showType("High temperature", abbey_ale.highTemp()));
 
         System.out.println("\n");
         noData.name();
@@ -43,18 +43,20 @@ public class AleFactory {
         System.out.println(chinook.style());
         System.out.println("\n");
         System.out.println("Convert List to a comma-separated string:");
-        Adapter adp = new Adapter();
+        ListToString adp = new ListToString();
         System.out.println(adp.Stringify(chinook.style()));
-        Decorator dec = new Decorator();
+        Display disp = new Display();
+        IDisplay dec = new Decorator1(disp);
+        dec = new Decorator2(dec);
         System.out.println("\n");
         System.out.println("Convert List to a comma-separated bedazzled string:");
-        System.out.println(dec.bedazzle("Hop styles: ", adp.Stringify(chinook.style())));
+        System.out.println(dec.showType("Hop styles: ", adp.Stringify(chinook.style())));
 
         System.out.println("\n");
 
         Malts coffeeMalt = maltFactory.getMalt("Coffee Malt");
         System.out.println(display.showType("Malt name", coffeeMalt.name()));
         System.out.println(display.showType("Malt Description", coffeeMalt.description()));
-        System.out.println(display.showType("Lovibond", coffeeMalt.lovibond()));
+//        System.out.println(display.showType("Lovibond", coffeeMalt.lovibond()));
     }
 }

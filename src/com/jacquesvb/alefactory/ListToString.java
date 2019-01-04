@@ -4,7 +4,11 @@ import com.google.common.collect.Iterables;
 
 import java.util.List;
 
-public class Adapter {
+public class ListToString {
+
+    /*
+    Converts a List to a comma separated string
+     */
 
     public String Stringify(List<String> getList) {
         String lastElement = Iterables.getLast(getList);
